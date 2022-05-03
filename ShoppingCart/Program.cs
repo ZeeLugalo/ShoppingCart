@@ -6,7 +6,7 @@ namespace ShoppingCart
     {
         static void Main(string[] args)
         {
-           ShoppingCart cart = new ShoppingCart();
+            ShoppingCartItem cart = new ShoppingCart();
 
             ShoppingCartItem item = new ShoppingCartItem("Laptop", 3500);
             cart.AddShoppingItem(item);
@@ -22,7 +22,7 @@ namespace ShoppingCart
             }
             //Console.WriteLine(items);
             Console.WriteLine("Sub total "
-                + cart.GetSubTotal());
+                              + cart.GetSubTotal());
             Console.WriteLine("Subtotal".Vat());
         }
     }

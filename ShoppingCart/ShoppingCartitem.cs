@@ -21,6 +21,12 @@ namespace ShoppingCart
         {
             _item.Add(item);
         }
+
+        internal List<ShoppingCartItem> CartList()
+        {
+            throw new NotImplementedException();
+        }
+
         public double Price
         {
             get { return _price; }
@@ -32,6 +38,13 @@ namespace ShoppingCart
             set { _itemname = value; }
         }
 
+        internal string GetSubTotal()
+        {
+            throw new NotImplementedException();
+        }
 
+        public List<ShoppingCartItem> ItemCartitems { get; }
     }
+       return _ShoppingCartModel
+
 }

@@ -1,4 +1,6 @@
-﻿namespace ShoppingCartModels
+﻿using System.Collections.Generic;
+
+namespace ShoppingCartModels
 {
     public class ShoppingCartItem
     {
